@@ -5,7 +5,7 @@ function supports_history_api() {
 function swapPhoto(href) {
   var req = new XMLHttpRequest();
   req.open("GET",
-           "./gallery/" +  //poner mi direcion
+           "http://gsyc.es/~grex/history_api/gallery/" +  //poner mi direcion
              href.split("/").pop(),
            false);
   req.send(null);
